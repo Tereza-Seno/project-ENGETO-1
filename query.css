@@ -1,0 +1,103 @@
+@media screen and (max-width: 992px) {
+
+    p {
+        font-weight: 400;
+        line-height: 1.4;
+    } 
+
+    .about-us-img {
+    min-width: 300px;
+    min-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    }
+    
+    .what-we-do h2 {
+    font-size: 3em;
+    }
+
+    .what-we-do-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    }
+
+    .what-we-do-icons img {
+    height: 50px;
+    width: 50px;
+    }
+
+    .what-we-do-icons a {
+    font-size: 1.5em;
+    font-weight: 700;
+    }
+
+    .item {
+    margin: 25px;
+    }
+
+    .our-tips h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    width: 200px;
+    height: 250px;
+    padding: 30px;
+    text-align: center;
+    }
+
+    .our-tips {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 250px);
+    gap: 5px;
+    margin: 80px;
+    }
+
+    .our-tips img {
+    width: 200px;
+    height: 250px;
+    }
+
+    .reviews h2 {
+    font-size: 3em;
+    }
+
+    .reviews {
+    gap: 10px;
+    margin-top: 0;
+    }
+
+    .reviews-basis {
+    margin: 0px;
+    }
+
+    .reviews img {
+    width: 8em;
+    height: 8em;
+    }
+
+    .sign {
+    font-weight: 500;
+    margin: 20px;
+    }
+
+    .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .our-tips {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(9, 200px);
+    gap: 5px;
+    margin: 80px;
+    }
+
+}
