@@ -1,103 +1,244 @@
-@media screen and (max-width: 992px) {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first project</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="query.css" rel="stylesheet" />
+  </head>
 
-    p {
-        font-weight: 400;
-        line-height: 1.4;
-    } 
+  <body>
+    <!--Doplnit alt texty, vyřešit odkazy-->
 
-    .about-us-img {
-    min-width: 300px;
-    min-height: 500px;
-    object-fit: cover;
-    border-radius: 5px;
-    }
-    
-    .what-we-do h2 {
-    font-size: 3em;
-    }
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#what-we-do">What We Do</a></li>
+          <li><a href="#our-tips">Our Tips</a></li>
+          <li><a href="#where-to-go">Where to go</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </nav>
+      <img id="hamburger" src="icons/icons8-menu-50.png" />
+      <div class="main-section">
+        <h1>
+          Your <br />Travel<br />
+          Assistant
+        </h1>
+      </div>
+    </header>
 
-    .what-we-do-icons {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    }
+    <main>
+      <section class="about-us" id="about-us">
+        <div class="about-us-text">
+          <h2>About Us</h2>
+          <p>
+            Leigh McAdam is a Calgary-based writer, photographer and social
+            media enthusiast with over 48,000 followers. Her blog:
+            HikeBikeTravel is frequently cited as one of the top travel and
+            outdoor adventure blogs in Canada, and consistently receives over
+            135,000 monthly page views. She shares her enthusiasm for the
+            outdoors as a brand ambassador for Sporting Life, and has worked on
+            campaigns for Travel Alberta, Expedia and Flight Hub. Leigh is the
+            author of Discover Canada: 100 Inspiring Outdoor Adventures.
+            Currently, she is co-authoring: 125 Nature Hot Spots in Alberta
+            (spring 2018). A true adventurer, Leigh will try anything once,
+            except perhaps bungee jumping
+          </p>
+        </div>
 
-    .what-we-do-icons img {
-    height: 50px;
-    width: 50px;
-    }
+        <img
+          class="about-us-img"
+          src="images/anneliese-phillips-uv4-vl3liKM-unsplash.jpg"
+          alt="image-nature"
+        />
+      </section>
 
-    .what-we-do-icons a {
-    font-size: 1.5em;
-    font-weight: 700;
-    }
+      <section class="what-we-do" id="what-we-do">
+        <div class="what-we-do-text">
+          <h2>What We Do</h2>
+          <p>
+            Opportunities for challenging hikes and pleasant strolls are
+            scattered all over this planet; you just need to know where to find
+            them. We do. Kilimanjaro, Everest Base Camp, Patagonia, and the Inca
+            Trail are out there, waiting for you to walk all over them. We’re
+            proud of our record of successful ascents (over 92% of our
+            travellers make it to the top of Kili, depending on the route), but
+            it’s our CEOs and local guides that make the journey itself as
+            memorable as the summit. And if you’re not into big climbs, don’t
+            sweat it; we’ve got loads of lower-impact walks and iconic treks
+            you’ll love, too.
+          </p>
+        </div>
 
-    .item {
-    margin: 25px;
-    }
+        <div class="what-we-do-icons">
+          <div class="item">
+            <a href="https://www.#.com/hiking">
+              <img
+                src="icons/png-icons-white/hiking-white.png"
+                alt="icon-hiking"
+              />Hiking</a
+            >
+          </div>
 
-    .our-tips h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    width: 200px;
-    height: 250px;
-    padding: 30px;
-    text-align: center;
-    }
+          <div class="item">
+            <a href="https://www.#.com/cycling">
+              <img
+                src="icons/png-icons-white/cycle-white.png"
+                alt="icon-cycling"
+              />Cycling</a
+            >
+          </div>
 
-    .our-tips {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 250px);
-    gap: 5px;
-    margin: 80px;
-    }
+          <div class="item">
+            <a href="https://www.#.com/surfing">
+              <img
+                src="icons/png-icons-white/water-white.png"
+                alt="icon-surfing"
+              />Surfing</a
+            >
+          </div>
 
-    .our-tips img {
-    width: 200px;
-    height: 250px;
-    }
+          <div class="item">
+            <a href="https://www.#.com/car-tips">
+              <img
+                src="icons/png-icons-white/car-white.png"
+                alt="icon-car-tips"
+              />Car tips</a
+            >
+          </div>
+        </div>
+      </section>
 
-    .reviews h2 {
-    font-size: 3em;
-    }
+      <section class="our-tips" id="our-tips">
+        <img
+          class="img-1"
+          src="images/simon-english-48nerZQCHgo-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-2"
+          src="images/james-wheeler-ZOA-cqKuJAA-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-3"
+          src="images/daniel-tseng-73lmMKhi2U8-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-4"
+          src="images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg"
+          alt=""
+        />
+        <h2>Our Tips</h2>
+        <img
+          class="img-5"
+          src="images/patrick-szylar-45bM3XGqnDE-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-6"
+          src="images/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-7"
+          src="images/julian-bialowas-ilkTnuMunP8-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="img-8"
+          src="images/matej-drha-rbDzMcJsBkY-unsplash.jpg"
+          alt=""
+        />
+      </section>
 
-    .reviews {
-    gap: 10px;
-    margin-top: 0;
-    }
+      <section class="where-to-go" id="where-to-go">
+        <h2>
+          Where do you <br />
+          want to go?
+        </h2>
+        <div class="where-to-go-container">
+          <p>
+            You’ll find 21 detailed adventure guides, over a hundred practical
+            travel tips, book reviews on anything outdoors related, packing
+            lists on a range of outdoor activities including kayaking,
+            backpacking and camping as well as honest hotel and B&B reviews.
+          </p>
+          <p>Contact us and we will help you!</p>
+          <a id="btn-contact" href="mailto:contacts@travelcompany.com"
+            >Contact us</a
+          >
+        </div>
+      </section>
 
-    .reviews-basis {
-    margin: 0px;
-    }
+      <section class="reviews" id="reviews">
+        <div class="reviews-basis">
+          <h2>Reviews</h2>
+          <p>
+            Our amazing clients are the reason we exist, and their reactions to
+            our customized travel experiences and personalized service keep us
+            smiling all day long. Here is just a sampling of what they’ve said:
+          </p>
+        </div>
+        <div class="first-review">
+          <img src="images/kalen-emsley-kGSapVfg8Kw-unsplash.jpg" alt="" />
+          <p>
+            She has booked two major European trips for us in the past year and
+            every aspect has met, and in most cases exceeded, our expectations.
+            Best prices, best hotels, best itineraries, and best cruises, she
+            does it all. But the most important thing is she remembers the
+            little things that we would do if we were making the plans
+            ourselves.
+          </p>
+          <p class="sign">Bertie Norton</p>
+        </div>
+        <div class="second-review">
+          <img src="images/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg" alt="" />
+          <p>
+            Leigh McAdam has been making my travel arrangements for about 20
+            years and there is no one else I would trust to arrange my trips and
+            tours. I've also had great fun on a few of the group trips she has
+            arranged - Peru & Machu Picchu and a 10-day cruise out of Venice and
+            diving. It's always an eclectic group of well traveled, interesting
+            people.
+          </p>
+          <p class="sign">Frank Kinney</p>
+        </div>
+      </section>
 
-    .reviews img {
-    width: 8em;
-    height: 8em;
-    }
+      <div class="gallery">
+        <img
+          class="gallery-img1"
+          src="images/alexey-fedenkov-BaCZYH9RLmQ-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="gallery-img2"
+          src="images/omer-salom-LoijtQXXNhs-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="gallery-img3"
+          src="images/vincentiu-solomon-7MH4ped6_Mo-unsplash.jpg"
+          alt=""
+        />
+        <img
+          class="gallery-img4"
+          src="images/daniel-tseng-73lmMKhi2U8-unsplash.jpg"
+          alt=""
+        />
+      </div>
+    </main>
 
-    .sign {
-    font-weight: 500;
-    margin: 20px;
-    }
+    <footer>
+      <a href="https://#.com/contact">Contact</a>
+      <h6>© 2022 - Your Travel Assistant. All Rights Reserved.</h6>
+    </footer>
 
-    .gallery {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    
-    .our-tips {
-    display: grid;
-    grid-template-columns: repeat(1, 300px);
-    grid-template-rows: repeat(9, 200px);
-    gap: 5px;
-    margin: 80px;
-    }
-
-}
+    <script src="script.js"></script>
+  </body>
+</html>
