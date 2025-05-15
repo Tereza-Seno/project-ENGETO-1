@@ -2,6 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Phudu:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -57,15 +66,15 @@ header {
 .main-nav {
   position: fixed;
   top: 0;
-  left: 0; /* Připojí menu k levému okraji */
-  width: 100%; /* Menu zabírá celou šířku */
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 50px;
-  background-color: var(--brown); /* Pozadí pro menu */
-  z-index: 1000; /* Ujistíme se, že menu je nad ostatním obsahem */
+  background-color: var(--brown);
+  z-index: 1000;
+  box-shadow: 0 5px 10px -5px rgb(22, 22, 22);
 }
 
 .main-nav ul {
@@ -94,6 +103,7 @@ header {
   height: 50vh;
   font-size: 50px;
   position: relative;
+overflow: hidden;
 }
 
 h1 {
@@ -186,7 +196,8 @@ h1 {
 }
 
 .item:hover {
-  transform: scale(1.2);
+  animation: pulse 1.5s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .our-tips {
