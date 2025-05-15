@@ -1,58 +1,63 @@
 @media screen and (max-width: 992px) {
+  p {
+    font-weight: 350;
+    line-height: 1.4;
+  }
 
-    p {
-        font-weight: 350;
-        line-height: 1.4;
-    } 
+  h1 {
+    font-size: 1.5em;
+    left: 50%;
+    top: 30%;
+  }
 
-    .about-us {
+  .about-us {
     margin: 80px;
-    }
+  }
 
-    .about-us h2 {
+  .about-us h2 {
     font-size: 3rem;
-    }
+  }
 
-    .about-us-img {
+  .about-us-img {
     min-width: 300px;
     min-height: 500px;
     object-fit: cover;
     border-radius: 5px;
-    }
-    
-    .what-we-do h2 {
+  }
+
+  .what-we-do h2 {
     font-size: 3em;
-    }
+  }
 
-    .what-we-do {
+  .what-we-do {
     padding: 20px;
-    }
+  }
 
-    .what-we-do-icons {
+  .what-we-do-icons {
     display: flex;
     flex-direction: row;
     margin: 0px;
-    }
+  }
 
-    .what-we-do-icons img {
+  .what-we-do-icons img {
     height: 50px;
     width: 50px;
-    }
+  }
 
-    .what-we-do-icons a {
+  .what-we-do-icons a {
     font-size: 1.5em;
     font-weight: 700;
-    }
+  }
 
-    .where-to-go h2 {
+  .where-to-go h2 {
     font-size: 3rem;
-    }
+  }
 
-    .item {
+  .item {
     margin: 25px;
-    }
+  }
 
-    .our-tips h2 {
+  .our-tips h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,88 +66,195 @@
     height: 250px;
     padding: 30px;
     text-align: center;
-    }
+  }
 
-    .our-tips {
-    display: grid;
+  .our-tips {
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, 250px);
     gap: 5px;
     margin: 80px;
-    }
+  }
 
-    .our-tips img {
+  .our-tips img {
     width: 200px;
     height: 250px;
-    }
+  }
 
-    .reviews h2 {
+  .reviews h2 {
     font-size: 3em;
-    }
+  }
 
-    .reviews {
+  .reviews {
     row-gap: 40px;
     column-gap: 15px;
     margin-top: 40px;
-    }
+  }
 
-    .reviews-basis {
+  .reviews-basis {
     margin: 0px;
-    }
+  }
 
-    .reviews img {
+  .reviews img {
     width: 8em;
     height: 8em;
-    }
+  }
 
-    .sign {
+  .sign {
     font-weight: 500;
     margin: 20px;
-    }
+  }
 
-    .gallery {
+  .gallery {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    }
+  }
 
-    .gallery img {
+  .gallery img {
     aspect-ratio: 0.5 / 0.5;
-    }
+  }
 
-    footer {
-      padding: 15px;
-    }
+  footer {
+    padding: 15px;
+  }
 
-    footer a {
-  margin: 20px;
-  text-decoration: underline;
-  font-weight: 400;
+  footer a {
+    margin: 20px;
+    text-decoration: underline;
+    font-weight: 400;
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
-}
-h6 {
-  font-size: 15px;
-  font-weight: 400;
-  margin-bottom: 40px;
+  }
+  h6 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
 }
 
-}
+/* Mobile */
 
 @media screen and (max-width: 768px) {
-    
-    .our-tips {
+  .main-section {
+    height: 100vh;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  h1 {
+    top: 75%;
+    font-size: 50px;
+    left: 45%;
+    font-size: 1.5em;
+  }
+
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-us img {
+    min-height: 200px;
+    margin-top: 20px;
+    max-width: 80vw;
+  }
+
+  .what-we-do-icons {
+    flex-direction: column;
+  }
+
+  .what-we-do-icons img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .what-we-do-icons a {
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .our-tips {
     display: grid;
-    grid-template-columns: repeat(1, 300px);
-    grid-template-rows: repeat(9, 200px);
-    gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    min-width: 80vw;
+    min-height: auto;
+  }
+
+  .our-tips img {
+    width: 90vw;
+    height: auto;
+    min-height: auto;
+  }
+
+  .our-tips h2 {
+    grid-column: 1;
+    width: auto;
+    height: max-content;
+    padding: 50px;
+  }
+
+  .where-to-go {
+    flex-direction: column;
+  }
+  .where-to-go h2 {
+    font-size: 3em;
+    width: auto;
+  }
+
+  #btn-contact {
+    font-size: 1.2em;
+  }
+
+  .reviews {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 80vw;
     margin: 80px;
-    }
+    gap: 50px;
+  }
+
+  .reviews-basis {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: center;
+  }
+
+  .first-review {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: center;
+  }
+
+  .second-review {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: center;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 100vw;
+    max-height: max-content;
+  }
+
+  .gallery img {
+    max-height: 30vh;
+  }
+
+  footer a {
+  font-size: 1.2em;
+  }
 
 }
 
+/*Height*/
+
 @media screen and (max-height: 721px) {
-    h1 {
+  h1 {
     top: 35%;
     transform: translateY(-10%);
-    }    
+  }
 }

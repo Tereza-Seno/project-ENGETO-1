@@ -1,9 +1,14 @@
 /* Zjednodušit selektory - něco mám zdablované (třeba h2 apod), udělat trošku revitalizaci kódu*/
 
+/* Někde mám blbě width a height - háže mi to posuvníky */
+
+/* Nastavit hamburger menu a nastavit h1 */
+
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Phudu:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -103,7 +108,7 @@ header {
   height: 50vh;
   font-size: 50px;
   position: relative;
-overflow: hidden;
+  overflow: hidden;
 }
 
 h1 {
@@ -238,7 +243,7 @@ h1 {
 .where-to-go-container {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
 }
 
 .where-to-go h2 {
@@ -257,7 +262,7 @@ h1 {
   background-color: var(--white);
   height: max-content;
   width: max-content;
-  padding: 10px 15px;
+  padding: 15px 20px;
   margin: 50px 0px;
   border-radius: 4px;
   font-weight: 600;
@@ -286,7 +291,7 @@ h1 {
   grid-template-columns: repeat(4, 150px);
   grid-template-rows: repeat(2, max-content);
   width: 100%;
-  max-height: 700px;
+  min-height: 700px;
   gap: 70px;
   margin: 70px;
   justify-content: center;
