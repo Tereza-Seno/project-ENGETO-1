@@ -198,7 +198,7 @@ h1 {
   animation-timing-function: ease-in-out;
 }
 
-.our-tips {
+.our-trips {
   display: grid;
   grid-template-columns: repeat(3, 280px);
   grid-template-rows: repeat(3, 200px);
@@ -206,14 +206,14 @@ h1 {
   margin: 80px;
 }
 
-.our-tips img {
+.our-trips img {
   width: 280px;
   height: 200px;
   object-fit: cover;
   border-radius: 5px;
 }
 
-.our-tips h2 {
+.our-trips h2 {
   display: flex;
   justify-content: center;
   align-items: center;
