@@ -26,7 +26,7 @@
 }
 
 :target {
-  scroll-margin-top: 60px;
+  scroll-margin-top: 70px;
 }
 
 #hamburger {
@@ -55,7 +55,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 header {
@@ -70,7 +70,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 60px;
   background-color: var(--brown);
   z-index: 1000;
   box-shadow: 0 5px 10px -5px rgb(22, 22, 22);
@@ -108,8 +108,8 @@ h1 {
   font-size: 90px;
   position: absolute;
   text-align: right;
-  left: 55%;
-  top: 45%;
+  left: 57%;
+  top: 49%;
 }
 
 .about-us h2 {

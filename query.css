@@ -4,10 +4,10 @@
     line-height: 1.4;
   }
 
- h1 {
-  position: absolute;
-  top: 55%;
-  left: 45%;
+  h1 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
   }
 
   h2 {
@@ -25,7 +25,7 @@
 
   #hamburger {
     display: block;
-    margin-right: 40px;
+    margin-right: 60px;
   }
 
   #hamburger:hover {
@@ -259,9 +259,8 @@
   }
 
   footer a {
-  font-size: 1.2em;
+    font-size: 1em;
   }
-
 }
 
 @media screen and (max-width: 630px) {
@@ -286,8 +285,6 @@
 
 @media screen and (max-height: 552px) {
   h1 {
-    top: 30%
+    top: 30%;
   }
 }
-
-
