@@ -121,7 +121,6 @@ h1 {
 
 .about-us h2 {
   margin-bottom: 10px;
-  font-size: 2rem;
 }
 
 .about-us {
@@ -222,7 +221,6 @@ h1 {
 
 .our-tips h2 {
   display: flex;
-  font-size: 2rem;
   justify-content: center;
   align-items: center;
   color: black;
@@ -249,7 +247,6 @@ h1 {
 .where-to-go h2 {
   width: 250px;
   margin-top: 30px;
-  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -276,7 +273,6 @@ h1 {
 
 .reviews h2 {
   margin: 30px;
-  font-size: 2rem;
   font-weight: 800;
 }
 

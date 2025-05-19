@@ -6,8 +6,10 @@
 
  h1 {
     font-size: 1.1em;
-    left: 50%;
-    top: 30%;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 
   nav ul li {
@@ -32,19 +34,11 @@
     margin: 80px;
   }
 
-  .about-us h2 {
-    font-size: 3rem;
-  }
-
   .about-us-img {
     min-width: 300px;
     min-height: 500px;
     object-fit: cover;
     border-radius: 5px;
-  }
-
-  .what-we-do h2 {
-    font-size: 3em;
   }
 
   .what-we-do {
@@ -67,10 +61,6 @@
     font-weight: 700;
   }
 
-  .where-to-go h2 {
-    font-size: 3rem;
-  }
-
   .item {
     margin: 25px;
   }
@@ -79,7 +69,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
     width: 200px;
     height: 250px;
     padding: 30px;
@@ -96,10 +85,6 @@
   .our-tips img {
     width: 200px;
     height: 250px;
-  }
-
-  .reviews h2 {
-    font-size: 3em;
   }
 
   .reviews {
@@ -161,10 +146,9 @@
   }
 
   h1 {
-    top: 75%;
-    font-size: 50px;
-    left: 45%;
     font-size: 1.3em;
+    left: 50%;
+    top: 70%;
   }
 
   .about-us {
@@ -217,7 +201,6 @@
     flex-direction: column;
   }
   .where-to-go h2 {
-    font-size: 3em;
     width: auto;
   }
 
@@ -270,7 +253,7 @@
 
 @media screen and (max-width: 630px) {
   h1 {
-    left: 20%;
+    left: 40%;
   }
 }
 
@@ -279,5 +262,11 @@
 @media screen and (max-height: 721px) {
   h1 {
     top: 37%;
+  }
+}
+
+@media screen and (max-height: 552px) {
+  h1 {
+    top: 30%
   }
 }
