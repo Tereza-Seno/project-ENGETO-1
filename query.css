@@ -18,6 +18,7 @@
 
   .main-nav {
     justify-content: flex-end;
+    height: 70px;
   }
 
   #hamburger {
@@ -143,6 +144,8 @@
 
   p {
     font-size: 1.3em;
+    font-weight: 350;
+    line-height: normal;
   }
 
   h1 {
@@ -151,8 +154,16 @@
     top: 70%;
   }
 
+  h2 {
+    font-size: 2.5rem;
+  }
+
   .about-us {
     flex-direction: column;
+  }
+
+  .about-us h2 {
+    margin-bottom: 25px;
   }
 
   .about-us img {
@@ -179,7 +190,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    gap: 20px;
+    gap: 10px;
     min-width: 80vw;
     min-height: auto;
   }
