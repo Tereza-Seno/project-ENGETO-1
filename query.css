@@ -5,7 +5,9 @@
   }
 
  h1 {
-    font-size: 1.1em;
+  position: absolute;
+  top: 55%;
+  left: 45%;
   }
 
   h2 {
@@ -138,7 +140,7 @@
 /* Mobile */
 
 @media screen and (max-width: 768px) {
-  .main-section {
+  .hero-section {
     height: 100vh;
   }
 
@@ -149,9 +151,9 @@
   }
 
   h1 {
-    font-size: 1.3em;
+    font-size: 3.5em;
+    top: 65%;
     left: 50%;
-    top: 70%;
   }
 
   h2 {
@@ -248,7 +250,7 @@
   .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    max-width: 100vw;
+    max-width: 100%;
     max-height: max-content;
   }
 
@@ -268,6 +270,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  h1 {
+    left: 20%;
+  }
+}
+
 /*Height*/
 
 @media screen and (max-height: 721px) {
@@ -281,3 +289,5 @@
     top: 30%
   }
 }
+
+
