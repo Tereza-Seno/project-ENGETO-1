@@ -37,3 +37,5 @@ Toto je můj první plně responzivní webový projekt, vyvinutý v rámci kurzu
 ## Poznámky 🗒
 
 Tento projekt mi poskytl cenné zkušenosti s vytvářením responzivních rozvržení pomocí moderních technik CSS. Použití Gridu a Flexboxu bylo klíčové pro dosažení požadované flexibility a struktury. Vyvinuto v rámci kurzu Engeto.
+
+📝 Zpětná vazba od mentorky: [mentor-feedback.md](./mentor-feedback.md)
