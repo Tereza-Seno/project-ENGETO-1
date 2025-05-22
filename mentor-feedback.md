@@ -1,3 +1,34 @@
+# Feedback from my mentor
+
+## What went well
+
+- Even before launching the page, the project made a good impression thanks to the well-written README.
+- The HTML code is properly formatted and free of syntax errors.
+- You correctly use semantic elements for different parts of the page.
+- Empty lines are used effectively to visually separate sections of the document.
+- I appreciate the subtle shadow under the navigation bar – it looks great.
+- The use of smooth scrolling enhances the overall experience.
+- Clickable elements have hover effects, which improves usability.
+- The page feels cohesive and thoughtfully put together.
+- Nice animation on the hamburger menu icon.
+- You're using CSS variables for colors – great for maintainability.
+- Good use of both CSS Grid and Flexbox layout techniques.
+
+## What could be improved
+
+- There are quite a few files in the root folder – I recommend organizing them into separate directories (e.g., move CSS files to their own folder).
+- Adding comments to the HTML sections would improve readability and orientation in the code.
+- On mobile devices, the font size could be slightly reduced – it seems a bit too large.
+- CSS styles would benefit from comments to help quickly locate different sections.
+
+## Final thoughts
+
+Overall, I really like your project – the README gives it a professional feel, the site itself is nicely styled, and both HTML and CSS are well-structured and error-free.
+
+My only suggestion would be to add some comments – and then it’ll be top-notch! 😊
+
+---
+
 # Hodnocení projektu od mentorky
 
 ## Pozitiva
